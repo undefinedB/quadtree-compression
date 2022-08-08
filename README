@@ -1,0 +1,33 @@
+README pentru tema2.
+
+1. Fisierul binar a fost citit asemenea formatului. Primele 3 linii in ascii, apoi am citit in binar
+
+2. Pe matricea grid definita ca dublu pointer am folosit deseori dereferentiere fara [], pentru 
+debugging, ea a ramas in cod. Mentionez asta pentru ca se poate observa astfel o inconsistenta in
+coding style
+
+3. In compresie.h am declarat totul, iar compresie.c si decompresie.c contin codul sursa pentru
+toate functiile folosite.
+
+4. Structura unui nod de arbore contine doar data(pixelul) si pointeri la cei 4 fii. Pentru area,
+stiu size-ul maxim si folosesc adancimea la care am ajuns in arbore. Aceasta structura ajuta pe
+tot parcursul implementarii.
+
+5. Ideea la primul subpunct este: citirea in binar, construirea unui grid, descompunerea in
+arbore in functie de factor, iar apoi construirea vectorului si afisarea lui in binarul de compresie.
+
+6. Ideea pentru decompresie este citirea binarului de compresie, deconstructia vectorului in
+arbore, apoi construirea grid-ului pe baza arborelui. Functiile sunt recursive si foarte
+explicitate in comentarii. Parcurgerea arborelui este in adancime.
+
+7. Pentru mirror fac pasii anteriori legati, doar ca atunci cand reconstruiesc imaginea la
+decompresie am in vedere inversarea unor noduri, fac cate doua swapuri. Pentru orizontal schimb
+left cu right, iar pentru vertical top cu bottom.
+
+8. Am functii separate pentru mean si average, pentru ca am avut probleme la un moment dat cu 
+overflow-ul si am avut nevoie sa fac debugging pe diferite parti ale programului.
+
+9. In general, functiile au nume sugestive si sunt destul de scurte, cu comentarii pentru fiecarepas urmat.
+
+10. Mare parte din ele se bazeaza pe parcurgerea recursiva a arborelui, fie prin vector fie prin
+structura dinamica, urmate de o prelucrare(conform cerintelor). 
