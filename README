@@ -31,3 +31,5 @@ overflow-ul si am avut nevoie sa fac debugging pe diferite parti ale programului
 
 10. Mare parte din ele se bazeaza pe parcurgerea recursiva a arborelui, fie prin vector fie prin
 structura dinamica, urmate de o prelucrare(conform cerintelor). 
+
+Mentionez ca programul merge doar pentru fisiere de tip PPM.
