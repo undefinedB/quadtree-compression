@@ -1,3 +1,15 @@
+How to use the program:
+
+  - build it with make
+  - type the following command:
+    ./quadtree  [-c compression_factor | -d | -m type] [in] [out]
+    
+    1. "-c compression_factor" is used for compressing a PPM file (compression_factor has to be a
+    positive integer)
+    2. "-d" decompresses the file
+    3. "-m type" will mirror the file; the type can be "h" or "v" (horizontally or vertically)
+    4. "in" and "out" are the input and output files
+
 README pentru tema2.
 
 1. Fisierul binar a fost citit asemenea formatului. Primele 3 linii in ascii, apoi am citit in binar
